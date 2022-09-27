@@ -27,6 +27,12 @@ function App() {
   const addExpenseHandler = (expense) => {
     console.log('In App.js');
     console.log(expense);
+    expenses.push({
+      id: expense.id,
+      title: expense.title,
+      amount: expense.amount,
+      date: expense.date
+    });
   };
 
   return (
