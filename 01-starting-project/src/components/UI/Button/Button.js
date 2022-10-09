@@ -27,11 +27,11 @@
 // `;
 
 import React from 'react';
-import styles1 from './Button.module.css';
+import styles from './Button.module.css';
 
 const Button = props => {
   return (
-    <button type={props.type} className={styles1.button} onClick={props.onClick}>
+    <button type={props.type} className={styles.button} onClick={props.onClick}>
       {props.children}
     </button>
   );
