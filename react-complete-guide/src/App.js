@@ -35,6 +35,13 @@ function App() {
     });
   };
 
+  // return React.createElement(
+  //   'div',
+  //   {},
+  //   React.createElement('h2', {}, "Started!"),
+  //   React.createElement(Expenses, { expenses: expenses})
+  // );
+
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
