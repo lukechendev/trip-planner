@@ -123,6 +123,7 @@ const CourseInput = props => {
   //   </form >
   // );
 
+  // with css module
   return (
     <form onSubmit={formSubmitHandler}>
       <div className={`${styles['form-control']} ${!isValid && styles.invalid}`}>
